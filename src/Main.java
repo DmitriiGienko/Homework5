@@ -11,7 +11,7 @@ public class Main {
 
     public static void task1() {
         System.out.println("______Задача 1______");
-        int age = 17;
+        int age = 19;
         if (age >= 18) {
             System.out.println("Если ваш возраст равен " + age + " то Вы совершеннолетний");
         }
@@ -67,13 +67,12 @@ public class Main {
 
     public static void task5() {
         System.out.println("______Задача 5______");
-        int age = 10;
+        int age = 15;
         boolean ageLessThen5 = age < 5;
         boolean age5to14 = age >= 5 && age < 14;
         if (ageLessThen5) {
             System.out.println("Если возраст ребенка равен " + age + ", то ему нельзя кататься на аттракционе.");
-        }
-        if (age5to14) {
+        }else if (age5to14) {
             System.out.println("Если возраст ребенка равен " + age + ", то ему можно кататься на аттракционе в сопровождении взрослого.");
         } else {
             System.out.println("Если возраст ребенка равен " + age + ", то ему можно кататься на аттракционе без сопровождения взрослого");
@@ -83,7 +82,7 @@ public class Main {
 
     public static void task6() {
         System.out.println("______Задача 6______");
-        int youTicket = 125;
+        int youTicket = 200;
         boolean less60 = youTicket <= 60;
         boolean more60 = youTicket > 60 && youTicket <= 102;
         boolean more102 = youTicket > 102;
